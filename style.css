@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #050505;
+    color: white;
+}
+
+.hero {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background:
+        radial-gradient(
+            circle at center,
+            #241038 0%,
+            #100819 35%,
+            #050505 70%
+        );
+}
+
+.content {
+    width: 100%;
+    max-width: 1000px;
+    padding: 40px;
+}
+
+.subtitle {
+    color: #b875ff;
+    font-size: 14px;
+    font-weight: bold;
+
+    letter-spacing: 7px;
+
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: clamp(60px, 10vw, 130px);
+
+    font-weight: 900;
+
+    letter-spacing: -6px;
+
+    margin-bottom: 45px;
+
+    text-shadow:
+        0 0 20px #8b3dff44,
+        0 0 50px #8b3dff22;
+}
+
+h1 span {
+    color: #a855f7;
+
+    text-shadow:
+        0 0 15px #a855f7,
+        0 0 40px #7e22ce;
+}
+
+.download {
+    display: inline-block;
+
+    padding: 18px 45px;
+
+    background: #a855f7;
+
+    color: #050505;
+
+    text-decoration: none;
+
+    font-size: 16px;
+    font-weight: 900;
+
+    letter-spacing: 1px;
+
+    border-radius: 6px;
+
+    box-shadow:
+        0 0 20px #a855f766;
+
+    transition: 0.25s;
+}
+
+.download:hover {
+    transform: translateY(-5px);
+
+    background: #c084fc;
+
+    box-shadow:
+        0 0 25px #a855f7,
+        0 0 60px #7e22ce88;
+}
+
+.curseforge {
+    margin-top: 22px;
+
+    color: #888;
+
+    font-size: 13px;
+
+    line-height: 1.6;
+}
